@@ -21,9 +21,12 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
 """
+#Variables
 t_width=int(input("Width of multiplication table?"))
 t_height=int(input("Height of multiplication table?"))
-t_height=t_height_two
+t_height=t_heightt
+
+#Code
 while t_height>0:
-    print([x*[y for y in range(1, t_height_two+1)] for x in range(1, t_width+1)])
+    print([x*[y for y in range(1, t_heightt+1)] for x in range(1, t_width+1)])
     t_height=t_height-1
