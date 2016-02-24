@@ -22,8 +22,8 @@ Height of multiplication table: 8
   8  16  24  32  40  48  56  64  72  80
 """
 #Variables
-t_height=int(input("Width of multiplication table?"))
-t_width=int(input("Height of multiplication table?"))
+t_height=int(input("Width of multiplication table: "))
+t_width=int(input("Height of multiplication table: "))
 t_heightt=t_height
 
 #Code
