@@ -27,6 +27,9 @@ t_height=int(input("Height of multiplication table?"))
 t_heightt=t_height
 
 #Code
-while t_height>0:
-    print([([x*y for y in range(1, t_heightt+1)]) for x in range(1, t_width+1)])
-    t_height=t_height-1
+t=([([x*y for y in range(1, t_heightt+1)]) for x in range(1, t_width+1)])
+
+for x in t:
+    for y in x:
+        print({0:>3} .format(y))
+    print()
